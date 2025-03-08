@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Image Search</title>
+        <title>Google Image Search</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-        <div>
-            <a href='index.html'>Back</a>
-
+        <div class="main">
+            <div class="nav">
+                <a href='index.html'>Back</a>
+            </div>
+            <div class="search-area">
+                <form class="form-class" action="https://www.google.com/search">
+                    <div class="searchbar-button">
+                        <div class="just-search-bar">
+                            <input type="text" name="q" class="search-bar">
+                        </div>
+                        
+                        <input type="submit" value="Google Search" class="button">
+                    </div>
+                    
+                </form>
+            </div>
         </div>
     </body>
 </html>
