@@ -6,7 +6,7 @@ body{
 .main{
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 85vh;
     background-color: #202124;
     color: #ffffff;
 }
@@ -70,4 +70,44 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    align-self:flex-start;
+    margin-left: 40px;
+}
+.input-text{
+    width: 600px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #4d5156;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+.input-wraper{
+    display: flex;
+    margin: 10px;
+}
+label{
+    color: #c4c7c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.label-wraper{
+    width: 200px;
+}
+.button-wraper{
+    align-self: end;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.advance-button{
+    background-color: #8ab4f8;
+    color: #ffffff;
+}
+.label-head{
+    font-size: 20px;
+    color: #ffffff;
+    align-self: flex-start;
+    margin-bottom: 30px;
 }
