@@ -1,4 +1,5 @@
 body{
+    font-family: Arial, sans-serif;
     background-color: #171717;
     border: none;
     margin: 0;
@@ -11,10 +12,19 @@ body{
     color: #ffffff;
 }
 .nav{
-    width: 97%;
+    
     text-align: right;
     margin-right: 20px;
+    margin-bottom: 25px;
     padding: 20px;
+}
+
+.nav > span{
+    text-decoration: none;
+    font-size: 26px;
+    /* font-weight: bold; */
+    opacity: .77;
+    color: inherit;
 }
 .search-area{
     flex: 1;
@@ -66,6 +76,12 @@ body{
 
 /* CSS for Advanced Page */
 
+.advance-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
 .advance-options{
     display: flex;
     flex-direction: column;
@@ -88,8 +104,8 @@ body{
     display: flex;
     margin: 10px;
 }
-label{
-    color: #c4c7c5;
+.label-wraper > label{
+    color: #969ba1;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
@@ -102,10 +118,14 @@ label{
     margin-top: 40px;
 }
 .advance-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
     background-color: #8ab4f8;
-    color: #ffffff;
+    color: #202124;
 }
 .label-head{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #ffffff;
     align-self: flex-start;

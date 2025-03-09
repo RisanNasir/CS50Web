@@ -1,0 +1,30 @@
+https://www.google.co.uk/search
+?as_q=harvard
+&as_epq=
+&as_oq=
+&as_eq=
+&as_nlo=
+&as_nhi=
+&lr=
+&cr=
+&as_qdr=all
+&as_sitesearch=
+&as_occt=any
+&as_filetype=
+&tbs=
+------------------------------------
+
+https://www.google.co.uk/search
+?as_q=harvard               (all words query)
+&as_epq=university          (exact phrase query)
+&as_oq=David+j+Malan        (optional query)
+&as_eq=Nasir                (exclude qords query)
+&as_nlo=
+&as_nhi=
+&lr=
+&cr=
+&as_qdr=all
+&as_sitesearch=
+&as_occt=any
+&as_filetype=
+&tbs=
