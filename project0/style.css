@@ -53,6 +53,7 @@ body{
     border: none;
     width: auto;
 }
+input:focus {outline: none}
 .button{
     align-self: center;
     padding: 10px;
