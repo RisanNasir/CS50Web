@@ -3,21 +3,33 @@
     <head>
         <title>Google Image Search</title>
         <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/873fe32d5d.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="main">
-            <div class="nav">
+            <div class="nav advance-nav">
+                <span>Google</span>
                 <a href='index.html'>Back</a>
+            </div>
+            <div style="display: flex; justify-content: center; margin-top: 60px;">
+                <div style="max-height: 92px; position: relative; height: 100%; margin-top: auto;">
+                    <img class="google-image" src="./google-image.png" alt="google logo image" height="92" width="272">
+                </div>
             </div>
             <div class="search-area"> 
                 <form class="form-class" action="https://www.google.com/search">
                     <div class="searchbar-button">
-                        <div class="just-search-bar">
-                            <input type="text" name="q" class="search-bar">
+                        <div class="search-icon">
+                            <div style="align-content: center; padding-left: 30px;"><i class="fa-solid fa-magnifying-glass"></i></div>
+                            <div style="display: flex; flex: auto;"><input type="text" name="q" class="search-bar"></div>
                             <input type="hidden" name="udm" value="2">
                         </div>
+                        <!-- <div class="just-search-bar">
+                            <input type="text" name="q" class="search-bar">
+                            <input type="hidden" name="udm" value="2">
+                        </div> -->
                         
-                        <input type="submit" value="Google Search" class="button">
+                        <input type="submit" value="Google Image Search" class="button">
                     </div>
                     
                 </form>
